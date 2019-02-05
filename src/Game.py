@@ -48,6 +48,7 @@ class Game:
     def play(self):
         return self.root.mainloop()
 
+    @classmethod
     def displayWelcome(self):
         welcome_window = tk.Tk()
         welcome_window.title('Где Прога? - Введение')
@@ -69,6 +70,7 @@ class Game:
         btn.pack()
         return welcome_window.mainloop()
 
+    @classmethod
     def displayWin(self):
         win_window = tk.Tk()
         win_window.title('Где Прога? - Победа!')
