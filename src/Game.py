@@ -26,7 +26,7 @@ class Game:
 
         canvas = self.board.canvas
         self.target_image = tk.PhotoImage(file='images/target.gif', width=one_tile_size, height=one_tile_size) #
-        canvas_target = canvas.create_image((tx + 0.5) * one_tile_size, (ty + 0.5) * one_tile_size,
+        canvas.create_image((tx + 0.5) * one_tile_size, (ty + 0.5) * one_tile_size,
                                             image=self.target_image)
 
         self.player_image = tk.PhotoImage(file='images/player.gif', width=one_tile_size, height=one_tile_size)  #
