@@ -1,15 +1,23 @@
+language: python
 dist: xenial
 sudo: required
 os:
   - linux
-#  - windows
-
 branches:
   except:
     - gh-pages
 
+env:
+  - DISPLAY=:99.0
+before_install:
+  - sh -e /etc/init.d/xvfb start
+script:
+  - nosetests --with-coverage --cover-package=chip8
+  - python src/__main__.py
+
+
 before_deploy:
-  sh ./pandoc.sh
+  - sh ./pandoc.sh
 
 deploy:
   - provider: pages
