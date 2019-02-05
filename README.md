@@ -31,7 +31,7 @@
 WASD + стрелочки
 
 ## Работы других людей, использованные в этом проекте
-*  Laptop - Free Web Icon от (сюда)[https://icons8.com/icon/1741/laptop]
+*  Laptop - Free Web Icon от [сюда](https://icons8.com/icon/1741/laptop)
 *  MazeGenrator.py от FB36 под MIT Licnese
 
 ## Контакты
