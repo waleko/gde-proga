@@ -1,4 +1,4 @@
-language: python
+language: cpp
 dist: xenial
 sudo: required
 os:
@@ -10,7 +10,10 @@ branches:
     - gh-pages
 
 install:
-  - pip install --user pandoc
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+    # Update
+  - sudo apt-get update -qq
+  - sudo apt install -y pandoc
 
 
 before_deploy:
