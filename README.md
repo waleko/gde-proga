@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://alexkovrigin.me/gde-proga">
-    <img alt="PictureCrypt" src="./src/images/target.gif">
+    <img alt="PictureCrypt" src="https://alexkovrigin.me/data/target.gif">
   </a>
 </p>
 
